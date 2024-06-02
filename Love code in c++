@@ -1,0 +1,29 @@
+//love c++
+   #include <iostream>
+ using namespace std;
+
+ int main() {
+   int x;
+cin>> x;
+cout<<"Enter Number: "<<x<<endl;
+for (int a = 0; a <= x; a++) {
+        cout << "     ***      ***     " << endl;
+        cout << "    *     * *     *   " << endl;
+        cout << "   *       *       *   " << endl;
+        cout << "  *   I LOVE YOU    *   " << endl;
+        cout << "  *                  *  " << endl;
+        cout << "   *                 *   " << endl;
+        cout << "     *              *   " << endl;
+        cout << "      *           *    " << endl;
+        cout << "        *        *    " << endl;
+        cout << "          *     *    " << endl;
+        cout << "             *     " << a << endl;
+    }
+
+
+
+    return 0;
+}
+
+
+
